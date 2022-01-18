@@ -49,6 +49,7 @@ namespace TesteInputs
         {
             cliente = await api.GetClientesAsync(cep);
             smalNome.Text = cliente.ToString();
+            DropList.SelectedValue = cliente.uf;
         }
 
         protected void NomeOnTextChanged(object sender, EventArgs e)

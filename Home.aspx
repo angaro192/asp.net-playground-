@@ -19,6 +19,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-6">
+                        <asp:DropDownList id="DropList" Runat="Server">
+                          <asp:ListItem Text="Item 1" Value="MG"/>
+                          <asp:ListItem Text="Item 2" Value="PE"/>
+                          <asp:ListItem Text="Item 3" Value="SP"/>
+                          <asp:ListItem Text="Item 4" Value="RS"/>
+                          <asp:ListItem Text="Item 5" Value="RG"/>
+                        </asp:DropDownList>
+                    </div>
+                    <div class="col-6"></div>
+                </div>
             </div>
         </div>
     </div>
